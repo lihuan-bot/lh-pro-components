@@ -1,0 +1,23 @@
+{
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "pnpm -C play dev"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lihuan-bot/lh-pro-components.git"
+  },
+  "author": "",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/react": "18",
+    "@types/react-dom": "18",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  },
+  "dependencies": {
+    "@lh-pro-components/components": "workspace:^1.0.0",
+    "@lh-pro-components/play": "workspace:^1.0.0"
+  }
+}
